@@ -5,10 +5,10 @@ While there are several apr spoofing tools available on the net, I wanted to cre
 
 This tool is just a proof of concept and not intended to be used for any illegal or unethical activity. It should only be used on machines and networks that you as a user own and/or have written permission to use and access. 
 
-Notes of use:
+# Notes of use:
 1.) need to enable port forwarding in terminal. This will allow the linux machine to pass the data packets through it. Failure to do so will result in the target machine no being able to access the internet. 
  
- echo 1 > /proc/sys/net/ipv4/ip_forward
+   `echo 1 > /proc/sys/net/ipv4/ip_forward`
 
  2.) This is intended to be used for just HTTP targets, however you can try to use SSLStrip as well to bypass HTTPS but in my experience SSLstrip has been VERY hit or miss on a lot of sites and new methods of bypassing HTTPS should be explored. 
 
